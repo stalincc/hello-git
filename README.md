@@ -1,8 +1,15 @@
-# 
+# Intro to Git
 
-## Intro to Git
+## The Basics
+<p align="center">
+  <img src="git-workflow.jpg" alt="diagram showing git workflow"/>
+</p>
+
 
 ### Installing git
+If using Linux or MacOs, `git` should probably be present already. If not, follow the insttructions [here][6].
+
+For Windows, download the installer from [here][5].
 
 ### Cloning a repo
 Click on the green `Code` button on the repo page, copy the `https` link. Open a terminal and move to desired folder. Then run the `git clone` command along with the copied url to create a local copy of the repo.
@@ -13,7 +20,8 @@ git clone https://github.com/hsrwrobotics/hello-git.git
 ```
 
 ### Forking a repo
-Click on the `Fork` button (![icon](https://github.com/channelCS/github-buttons/blob/master/2x/github_fork.png)) to create a remote copy first. Then go to this forked repo page and clone it(Notice the url of the fork is different from the original). 
+![fork icon](https://github.com/channelCS/github-buttons/blob/master/2x/github_fork.png)
+Click on the `Fork` button  to create a remote copy first. Then go to this forked repo page and clone it(Notice the url of the fork is different from the original). 
 
 ### Pushing to a repo
 1. `git add <files paths>`
@@ -36,14 +44,14 @@ git pull origin main
 
 ### Creating a branch
 ```bash
-git checkout -b web
+git checkout -b pages
 ```
 
 ### Pushing to branch
 ```bash
 git add README.md
 git commit -m "updating name"
-git push origin web
+git push origin pages
 ```
 
 ## Participants
@@ -63,3 +71,5 @@ git push origin web
 [2]: https://vincentgarreau.com/particles.js/
 [3]: https://github.com/VincentGarreau/particles.js
 [4]: https://benrogers.dev/
+[5]: https://git-scm.com/download/win
+[6]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
