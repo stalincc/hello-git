@@ -65,6 +65,7 @@ git push origin pages
 
 ## Participants
 - Thomas
+- Stalin
 
 ## References
 - [Particles JS library][3]
