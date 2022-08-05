@@ -1,0 +1,53 @@
+* { z-index: 2; }
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+	max-width: 100vw;
+}
+
+.profileHeader {
+	min-height: 30vh;
+}
+
+.c1{
+	margin-left: 0;
+}
+
+.particles {
+	position: absolute;
+  width: 100%;
+  height: 100%;
+	max-height: 30vh;
+	max-width: 100vw;
+  /* background-color: #091b84; */
+	background-color: #e3f2fd;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+	z-index: 1;
+}
+
+.particles canvas {
+	display: block;
+	z-index: 1 !important;
+	max-width: 100vw;
+}
+
+
+/* .card img {
+	background: #e3f2fd;
+	border-radius: .3em;
+	
+} */
+
+.card{
+	width: 8rem;
+	height: 8rem;
+	background: #e3f2fd;
+}
+	
+.card:hover{
+	transform: scale(1.5);
+}
