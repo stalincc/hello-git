@@ -55,7 +55,7 @@ git push origin pages
 ```
 
 ## Participants
-- 
+- Thomas
 
 ## References
 - [Particles JS library][3]
